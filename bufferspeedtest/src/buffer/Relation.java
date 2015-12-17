@@ -12,7 +12,7 @@ import rawdata.Keyword;
 import rawdata.ModelName;
 
 /**
- * °Ñ¹¦ÄÜÄ£¿éid¡¢·ÖÀà¡¢ÊôĞÔ¡¢¹Ø¼ü´Ê£¬¹ØÁªÔÚÒ»Æğ
+ * æŠŠåŠŸèƒ½æ¨¡å—idã€åˆ†ç±»ã€å±æ€§ã€å…³é”®è¯ï¼Œå…³è”åœ¨ä¸€èµ·
  * @author Administrator
  *
  */
@@ -32,7 +32,7 @@ public class Relation {
 	private boolean isTransformed = false;
 	
 	/**
-	 * ´´½¨ÏÔÊ¾¹ØÏµ£¬ÒÔ¹¦ÄÜÄ£ÎªË÷Òı
+	 * åˆ›å»ºæ˜¾ç¤ºå…³ç³»ï¼Œä»¥åŠŸèƒ½æ¨¡ä¸ºç´¢å¼•
 	 * {
 		id: gmmk_id0001,
 		class: [class_mc01, class_mc03, class_mc09, class_mc23],
@@ -54,7 +54,7 @@ public class Relation {
 	}
 	
 	/**
-	 * ×ª»»ÒÔÉÏ¹ØÏµ£¬·Ö±ğÒÔ¹Ø¼ü´Ê¡¢ÊôĞÔ¡¢·ÖÀàÎªË÷Òı
+	 * è½¬æ¢ä»¥ä¸Šå…³ç³»ï¼Œåˆ†åˆ«ä»¥å…³é”®è¯ã€å±æ€§ã€åˆ†ç±»ä¸ºç´¢å¼•
 	 */
 	public void transform() {
         if(!isTransformed) {

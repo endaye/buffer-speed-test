@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 /**
- * µ¼Èë¹¦ÄÜÄ£¿é±í
+ * å¯¼å…¥åŠŸèƒ½æ¨¡å—è¡¨
  * @author Administrator
  *
  */
@@ -16,7 +16,7 @@ public class ModelName {
 	
 	private void importModel() {
 		BufferedReader in;
-		String txtFile = "C:\\Documents and Settings\\Administrator\\×ÀÃæ\\µ¼³ö±í\\qx_gnmk.txt";
+		String txtFile = "C:\\Documents and Settings\\Administrator\\æ¡Œé¢\\å¯¼å‡ºè¡¨\\qx_gnmk.txt";
 		Pattern pattern = Pattern.compile("values [(]\'(\\w*)\'");
 		try {
 			in = new BufferedReader(new FileReader(txtFile));

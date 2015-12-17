@@ -1,12 +1,15 @@
 package main;
 
 import buffer.Relation;
+import search.SearchEngine;
 
 public class MainClass {
 
     public static void main(String[] args) {
-		Relation r = new Relation();
-        r.test();
+        SearchEngine se = new SearchEngine();
+        se.test();
+//		Relation r = new Relation();
+//        r.test();
 //		String str1 = r.getStrBuff();
 //		String str2 = r.getJSONBuff();
 //

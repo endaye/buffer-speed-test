@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class JsonBuff {
     /**
-     * JsonÄ£Ê½´æ´¢
+     * Jsonæ¨¡å¼å­˜å‚¨
      * <p/>
      * {
      * id: gmmk_id0001,
@@ -19,7 +19,7 @@ public class JsonBuff {
      * keyword: [kw_val00003, kw_val00005, kw_val00007, ...]
      * } ,
      * <p/>
-     * °ÑÊôÐÔÖµÕâ²¿·Ö¼ò»¯£¬²¢×ª»»³ÉJson¸ñÊ½ºó£º
+     * æŠŠå±žæ€§å€¼è¿™éƒ¨åˆ†ç®€åŒ–ï¼Œå¹¶è½¬æ¢æˆJsonæ ¼å¼åŽï¼š
      * {
      * "cx005100122":
      * [
@@ -144,9 +144,9 @@ public class JsonBuff {
     public String getBuff() {
         /**
          [cx005100122],
-         [È«²¿,·ÖÀà2,·ÖÀà2_3,·ÖÀà2_3_2,],
-         [ÊôÐÔB_Öµ1,ÊôÐÔG_Öµ1,ÊôÐÔC_Öµ3,ÊôÐÔF_Öµ5,],
-         [³¬¶îÀûÈó,³µ¼Ü,²Æ³¤,°²È«Ã±,²Æ³à,°×ÔÆ¿óÇø,°²Î¿Èü,±°´Ê,³É°Ü,°ÑÎÕÐÔ,³¤Ïß²úÆ·,²èÌÀ,±®Òõ,±ý×Ó,²ÉËëÆÔ,²ñÐÂ½¨,°ä½±»á,²èÍÐ,±¦µØ,°ÍÊ¿,°ÅÀÙÎèÍÅ,³É°²ÏØ,°ÙÊÞ,±ùÎè,±»Èì,²Ô»Æ,³£Á÷Ë®,³´²Ë,³¡µØÈü,²ËëÈ,²©¿Í", ]
+         [å…¨éƒ¨,åˆ†ç±»2,åˆ†ç±»2_3,åˆ†ç±»2_3_2,],
+         [å±žæ€§B_å€¼1,å±žæ€§G_å€¼1,å±žæ€§C_å€¼3,å±žæ€§F_å€¼5,],
+         [è¶…é¢åˆ©æ¶¦,è½¦æž¶,è´¢é•¿,å®‰å…¨å¸½,è´¢èµ¤,ç™½äº‘çŸ¿åŒº,å®‰æ…°èµ›,å‘è¯,æˆè´¥,æŠŠæ¡æ€§,é•¿çº¿äº§å“,èŒ¶æ±¤,ç¢‘é˜´,é¥¼å­,é‡‡ç©—åœƒ,æŸ´æ–°å»º,é¢å¥–ä¼š,èŒ¶æ‰˜,å®åœ°,å·´å£«,èŠ­è•¾èˆžå›¢,æˆå®‰åŽ¿,ç™¾å…½,å†°èˆž,è¢«è¤¥,è‹é»„,å¸¸æµæ°´,ç‚’èœ,åœºåœ°èµ›,èœè‚´,åšå®¢", ]
          */
 
         String str = "";
@@ -174,4 +174,10 @@ public class JsonBuff {
         }
         return str;
     }
+}
+
+class JsonBuffElem {
+    final public String[] cls = new String[4];
+    final public HashSet<String> attr = new HashSet<String>();
+    final public HashSet<String> kws = new HashSet<String>();
 }
