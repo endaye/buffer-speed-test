@@ -11,10 +11,10 @@ import test.TestData;
 public class MainClass {
 
     public static void main(String[] args) {
-//        AccuracyTest at = new AccuracyTest();
-//        StressTest st = new StressTest();
+//        AccuracyTest at = new AccuracyTest(10);
 //        at.test();
-//        st.test();
+        StressTest st = new StressTest(100);
+        st.test();
 //		Relation r = new Relation();
 //        r.test();
 //		String str1 = r.getStrBuff();
@@ -28,8 +28,8 @@ public class MainClass {
 //		a.output();
 //		Category c = new Category();
 //		c.output();
-        TestData td = new TestData();
-        td.test();
+//        TestData td = new TestData(4);
+//        td.test();
 
 //        kw.output();
 

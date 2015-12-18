@@ -5,37 +5,26 @@ package test;
  */
 public class StressTest extends Test {
 
+    public StressTest(int max) {
+        this.max = max;
+        data = (new TestData(max)).getData();
+    }
     @Override
     public void test() {
-        int max = 100;
-        System.out.println("#### 准确性测试 ####");
+        System.out.println("#### 压力测试 ####");
 
         System.out.println("#### 测试数据: " + max + "个 ####");
         // 引擎 1
         tic(1);
-        for(int i = 0; i < max; i++) {
-            se.search1("安全帽 安全角 安全区, 安身之地 保长", null, null);
-            se.search1("安全帽", null, null);
-            se.search1("安全帽", "", null);
-            se.search1("安全", null, null);
-            se.search1("安全帽 安全角 安全区, 安身之地 保长", "属性F_值8, 属性I_值4, 属性F_值7", null);
-            se.search1("安全帽 安全角 安全区, 安身之地 保长", "属性F_值8, 属性I_值4, 属性F_值7", "分类2_2_1");
-            se.search1("安全帽 安全角 安全区, 安身之地 保长", null, "分类2_2_1");
-            se.search1("安全帽 安全角 安全区, 安身之地 保长", " ", null);
+        for(int i = 0; i < data.length; i+=3) {
+            se.search1(data[i], data[i+1], data[i+2]);
         }
         toc(1);
 
         // 引擎 2
         tic(2);
-        for(int i = 0; i < max; i++) {
-            se.search2("安全帽 安全角 安全区, 安身之地 保长", null, null);
-            se.search2("安全帽", null, null);
-            se.search2("安全帽", "", null);
-            se.search2("安全", null, null);
-            se.search2("安全帽 安全角 安全区, 安身之地 保长", "属性F_值8, 属性I_值4, 属性F_值7", null);
-            se.search2("安全帽 安全角 安全区, 安身之地 保长", "属性F_值8, 属性I_值4, 属性F_值7", "分类2_2_1");
-            se.search2("安全帽 安全角 安全区, 安身之地 保长", null, "分类2_2_1");
-            se.search2("安全帽 安全角 安全区, 安身之地 保长", " ", null);
+        for(int i = 0; i < data.length; i+=3) {
+            se.search2(data[i], data[i+1], data[i+2]);
         }
         toc(2);
     }

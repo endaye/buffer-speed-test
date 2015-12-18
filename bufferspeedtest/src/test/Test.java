@@ -11,6 +11,8 @@ public class Test {
     Long tic1 = System.currentTimeMillis();
     Long tic2 = System.currentTimeMillis();
     Long toc, toc1, toc2;
+    int max = -1;
+    String[] data;
 
     void tic(int id) {
         if(id == 1) {
