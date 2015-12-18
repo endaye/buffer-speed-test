@@ -3,11 +3,12 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/buffer/JsonBuff.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/buffer/Relation.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/rawdata/Attribute.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/rawdata/Category.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/rawdata/Attribute.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/rawdata/Category.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/rawdata/Keyword.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/rawdata/ModelName.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/search/SearchEngine.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/TestData.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

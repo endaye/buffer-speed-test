@@ -6,6 +6,7 @@ import rawdata.ModelName;
 import search.SearchEngine;
 import test.AccuracyTest;
 import test.StressTest;
+import test.TestData;
 
 public class MainClass {
 
@@ -27,12 +28,10 @@ public class MainClass {
 //		a.output();
 //		Category c = new Category();
 //		c.output();
-        ModelName mn = new ModelName();
-        System.out.println(mn.getModelName().length);
+        TestData td = new TestData();
+        td.test();
 
-        Keyword kw = new Keyword();
 //        kw.output();
-        System.out.println(kw.getKeyword().length);
 
 //        Keyword kw = new Keyword();
 //        kw.output();

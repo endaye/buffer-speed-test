@@ -1,6 +1,6 @@
 package rawdata;
 /**
- * Ä£Äâ³ö25¸ö·ÖÀà
+ * æ¨¡æ‹Ÿå‡º25ä¸ªåˆ†ç±»
  * @author Administrator
  *
  */
@@ -8,40 +8,40 @@ public class Category {
 	final private String[] catalog = new String[25];
 	
 	public Category() {
-		//Ò»¼¶·ÖÀà
-		catalog[0] = "È«²¿";
-		//¶þ¼¶·ÖÀà
-		catalog[1] = "·ÖÀà1";
-		catalog[2] = "·ÖÀà2";
-		//Èý¼¶·ÖÀà
-		catalog[3] = "·ÖÀà1_1";
-		catalog[4] = "·ÖÀà1_2";
-		catalog[5] = "·ÖÀà2_1";
-		catalog[6] = "·ÖÀà2_2";
-		catalog[7] = "·ÖÀà2_3";
-		catalog[8] = "·ÖÀà2_4";
-		//ËÄ¼¶·ÖÀà
-		catalog[9]  = "·ÖÀà1_1_1";
-		catalog[10] = "·ÖÀà1_1_2";
-		catalog[11] = "·ÖÀà1_1_3";
+		//ä¸€çº§åˆ†ç±»
+		catalog[0] = "å…¨éƒ¨";
+		//äºŒçº§åˆ†ç±»
+		catalog[1] = "åˆ†ç±»1";
+		catalog[2] = "åˆ†ç±»2";
+		//ä¸‰çº§åˆ†ç±»
+		catalog[3] = "åˆ†ç±»1_1";
+		catalog[4] = "åˆ†ç±»1_2";
+		catalog[5] = "åˆ†ç±»2_1";
+		catalog[6] = "åˆ†ç±»2_2";
+		catalog[7] = "åˆ†ç±»2_3";
+		catalog[8] = "åˆ†ç±»2_4";
+		//å››çº§åˆ†ç±»
+		catalog[9]  = "åˆ†ç±»1_1_1";
+		catalog[10] = "åˆ†ç±»1_1_2";
+		catalog[11] = "åˆ†ç±»1_1_3";
 
-		catalog[12] = "·ÖÀà1_2_1";
-		catalog[13] = "·ÖÀà1_2_2";
+		catalog[12] = "åˆ†ç±»1_2_1";
+		catalog[13] = "åˆ†ç±»1_2_2";
 
-		catalog[14] = "·ÖÀà2_1_1";
-		catalog[15] = "·ÖÀà2_1_2";
+		catalog[14] = "åˆ†ç±»2_1_1";
+		catalog[15] = "åˆ†ç±»2_1_2";
 
-		catalog[16] = "·ÖÀà2_2_1";
-		catalog[17] = "·ÖÀà2_2_2";
-		catalog[18] = "·ÖÀà2_2_3";
+		catalog[16] = "åˆ†ç±»2_2_1";
+		catalog[17] = "åˆ†ç±»2_2_2";
+		catalog[18] = "åˆ†ç±»2_2_3";
 
-		catalog[19] = "·ÖÀà2_3_1";
-		catalog[20] = "·ÖÀà2_3_2";
-		catalog[21] = "·ÖÀà2_3_3";
-		catalog[22] = "·ÖÀà2_3_4";
+		catalog[19] = "åˆ†ç±»2_3_1";
+		catalog[20] = "åˆ†ç±»2_3_2";
+		catalog[21] = "åˆ†ç±»2_3_3";
+		catalog[22] = "åˆ†ç±»2_3_4";
 
-		catalog[23] = "·ÖÀà2_4_1";
-		catalog[24] = "·ÖÀà2_4_2";
+		catalog[23] = "åˆ†ç±»2_4_1";
+		catalog[24] = "åˆ†ç±»2_4_2";
 	}
 	
 	public String[] getCatalog() {
