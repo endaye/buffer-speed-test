@@ -12,9 +12,9 @@ import java.util.regex.Pattern;
 public class Keyword {
 	final private String[] keywords = new String[5000];
 
-	public void importDict() {
+	private void importDict() {
         String encoding = "Unicode";
-		String txtFile = "C:\\Documents and Settings\\Administrator\\桌面\\导出表\\fingerDic_UTF.txt";
+		String txtFile = "/Users/yzhang/test/Buffer/fingerDic_UTF.txt";
 
         try {
             InputStreamReader read = new InputStreamReader(new FileInputStream(txtFile), encoding);
@@ -33,14 +33,14 @@ public class Keyword {
 			e.printStackTrace();
 		}
     }
-	
+
 	public String[] getKeyword() {
 		if(keywords[0] == null) {
 			importDict();
 		}
 		return this.keywords;
 	}
-	
+
 	public void output() {
 		if(keywords[0] == null) {
 			importDict();

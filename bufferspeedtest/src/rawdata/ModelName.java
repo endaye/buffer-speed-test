@@ -16,7 +16,8 @@ public class ModelName {
 	
 	private void importModel() {
 		BufferedReader in;
-		String txtFile = "C:\\Documents and Settings\\Administrator\\桌面\\导出表\\qx_gnmk.txt";
+		// /Users/yzhang/test/Buffer/jsonBuff.txt
+		String txtFile = "/Users/yzhang/test/Buffer/qx_gnmk.txt";
 		Pattern pattern = Pattern.compile("values [(]\'(\\w*)\'");
 		try {
 			in = new BufferedReader(new FileReader(txtFile));
