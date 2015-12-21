@@ -1,19 +1,13 @@
 package main;
 
-import buffer.Relation;
-import rawdata.Keyword;
-import rawdata.ModelName;
-import search.SearchEngine;
-import test.AccuracyTest;
 import test.StressTest;
-import test.TestData;
 
 public class MainClass {
 
     public static void main(String[] args) {
 //        AccuracyTest at = new AccuracyTest(10);
 //        at.test();
-        StressTest st = new StressTest(100);
+        StressTest st = new StressTest(10000);
         st.test();
 //		Relation r = new Relation();
 //        r.test();
